@@ -1,0 +1,230 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+/*@import url(http://weloveiconfonts.com/api/?family=fontawesome);*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #C0C0C0;
+	color: #000;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+        margin: 0;
+}
+
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	-webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login {
+	margin: 50px auto;
+	width: 400px;
+}
+
+#login h2 {
+	background: #dc4d30;
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 28px;
+	padding: 20px 26px;
+}
+
+#login h2 span[class*="fontawesome-"] {
+	margin-right: 14px;
+}
+
+#login fieldset {
+	background: #fff;
+	border-radius: 0 0 20px 20px;
+	padding: 20px 26px;
+}
+
+#login fieldset p {
+	color: #777;
+	margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+	margin-bottom: 0;
+}
+
+#login fieldset input {
+	border-radius: 3px;
+}
+
+#login fieldset input[type="email"], #login fieldset input[type="password"] {
+	background: #eee;
+	color: #777;
+	padding: 4px 10px;
+	width: 328px;
+}
+
+#login fieldset input[type="submit"] {
+	background: #33cc77;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 100px;
+}
+
+.gree_btn {
+    background: #33cc77;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 4px 0;
+    border-radius: 3px;
+    -webkit-appearance: button;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    padding:10px;
+}
+
+.gree_btn:hover {
+	background: #28ad63;
+}
+
+#login fieldset input[type="submit"]:hover {
+	background: #28ad63;
+}
+
+.logo_login {
+    position: relative;
+    left: 10%;
+}
+
+.main_gui {
+    width:80%;
+    margin:auto;
+}
+.logo_mainframe {
+    position: absolute;
+    /*bottom:2%;*/
+    right:0%;
+}
+.main {
+max-width: 82.667em;
+min-height: 40em;
+}
+.main, .container > header {
+width: 1000px;
+margin: 0 auto;
+
+}
+
+.searchSpot {
+    font-family: 'Lato', Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 8px 12px;
+  font-size:100%;
+  line-height: 30px;
+  border: 0px;
+text-transform: uppercase;
+ background: #5f6f81;
+color:#5f6f81;
+letter-spacing: 1px;
+font-weight: bold;
+  /*outline: none;*/
+
+/*  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;*/
+/*-webkit-transition: all 1s ease; 
+-moz-transition: all 1s ease; 
+-o-transition: all 1s ease; 
+transition: all 1s ease; */
+
+		
+}
+.searchSpot:focus {
+    background: #5f6f81;
+		color: white;
+    /*border: 2px solid #c6d0da;*/
+}
+.searchSpot {
+  background-color: #fff;
+}
+
+
+
+.searchSpot {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+@media screen and (max-width: 480px) {
+    .hideonResu { display: none; }
+}
+
+.userInfo {
+    color: #00cc00;
+}

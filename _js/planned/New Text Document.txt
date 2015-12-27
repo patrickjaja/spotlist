@@ -1,0 +1,5 @@
+http://beneverard.github.io/jqPagination/
+
+http://bestofjquery.com/
+
+http://twitter.github.io/typeahead.js/
